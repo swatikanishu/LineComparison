@@ -25,10 +25,13 @@ public class LineComparison {
             System.out.println("Length of the line:" + length2);
             String str1 = Double.toString(length);
             String str2 = Double.toString(length2);
-            if (str1.equals(str2))
+            double check = str1.compareTo(str2);
+            if(check == 0)
                 System.out.println("The two lines are equal");
+            else if(check < 0.0)
+                System.out.println("Line1 is smaller than Line2");
             else
-                System.out.println("The two lines are not equal");
+                System.out.println("Line1 is greater than Line2");
             sc.close();
         }
 }
