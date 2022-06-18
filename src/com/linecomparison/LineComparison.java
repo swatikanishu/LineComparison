@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class LineComparison {
         public static void main(String[] args) {
-            int x1, x2, y1, y2, x3, y3, x4, y4
-            double length, length2
+            int x1, x2, y1, y2, x3, y3, x4, y4;
+            double length, length2;
             System.out.println("Welcome to Line Comparison Computation Program");
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter first two co-ordinates:");
