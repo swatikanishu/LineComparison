@@ -23,6 +23,12 @@ public class LineComparison {
             y4 = sc.nextInt();
             length2 = Math.sqrt(Math.pow((x3 - y3), 2) + Math.pow((x4 - y4), 2));
             System.out.println("Length of the line:" + length2);
+            String str1 = Double.toString(length);
+            String str2 = Double.toString(length2);
+            if (str1.equals(str2))
+                System.out.println("The two lines are equal");
+            else
+                System.out.println("The two lines are not equal");
             sc.close();
         }
 }
